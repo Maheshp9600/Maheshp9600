@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .p1 {
+        column-count: 3;
+        column-rule-style: dashed;
+        column-rule-width: 5px;
+        column-gap: 40px;
+    }
+
+    .aaa {
+        column-count: 2;
+        column-rule-style: double;
+        column-rule-width: 5px;
+        column-gap: 50px;
+    }
+
+    .p2 {
+        column-count: 2;
+        column-width: 5px;
+        column-rule-style: dotted;
+        column-gap: 30px;
+    }
+</style>
+
+<body>
+    <center><img src="data:image/png;base64,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"
+            width="30%" alt=""></center>
+    <hr>
+    <hr>
+    <div>
+        <p class="p1"> <span style="color: red; font-style:italic; font-size: larger; fon">आपल्याकडे</span> लोकांना
+            पश्चिम युरोप माहितीचा असतो.
+            पूर्व युरोप मात्र अगदीच अपरिचित. युक्रेनमध्ये विद्यार्थिदशेचा काही काळ घालवल्यामुळे,
+            माझ्यासाठी भारताबाहेरील स्वदेश हाच. त्यात माझ्याबरोबर तिथे पूर्व युरोपातील असंख्य सहाध्यायी असल्याने,
+            तो संपूर्ण भागच आपला वाटतो. वर्णभेदाचा जो अनुभव इतर युरोपीय देशांत फिरताना जाणवतो,
+            तो या देशांमध्ये किंवा या माणसांशी वागताना फारसा जाणवत नाही. उलट भारतीयांवर त्यांचे मनापासून प्रेम.
+            यांच्या प्रेमामुळे व जन्मजात असलेल्या कुतूहलामुळे यांच्याविषयी अधिक जाणून घेतले.
+            युरोपमधील देशांची नावे बहुतांशी तिथे स्थायिक झालेल्या टोळ्यांच्या नावांवरून पडली आहेत.
+            आपला संबंध स्लाव लोकांशी व सध्याच्या युक्रेन-रशिया संघर्षाशी आहे. या स्लाव टोळ्या उत्तरेकडून
+            प्रथम दक्षिणेकडे व मग परत उत्तरेकडे अशा सरकत गेल्या. त्या वेळी त्या पेगन धर्माच्या, म्हणजे निसर्गपूजक
+            ग्रीक संस्कृती व रोमन साम्राज्य त्या वेळी युरोपात बलाढ्य होते. त्यांनी प्रथम ख्रिस्ती धर्माला
+            त्याचा स्वीकार केला व नंतर कठोरपणे त्या धर्माच्या अंमलबजावणीसाठी धोरणे अमलात आणली. ग्रीकांचीच एक शाखा
+            डारडानेलसच्या काठावर असलेल्या कॉन्स्तन्तिनोपलला स्थापित झाली व बहरली. दहाव्या शतकात कीव्हचा झार (राजा)
+            याच्या आईने व नंतर त्याने कॉन्स्तन्तिनोपलच्या बायझेंटाइन साम्राज्याकडून ख्रिस्ती धर्माची दीक्षा घेतली. रोम
+            केलेला ख्रिस्ती धर्म पश्चिम युरोपात फोफावला, म्हणून तो रोमन कॅथॉलिक म्हटला गेला व बायझेंटाइन कडून स्वीकारला
+            ऑर्थोडॉक्स नावाने ओळखला गेला. या धर्माची विशेषता म्हणजे, प्रत्येक स्थानिक चर्च स्वतंत्र असते. तिथली
+            छोटे चर्च, कन्या चर्च, बहीण व पुढे माता चर्च अशी त्यांची वाढ असते. म्हणून रशियाचे चर्च हे, ग्रीक ऑर्थोडॉक्स
+            किंवा स्लाविक भाषांमध्ये या धर्माला 'पूर्व स्लावांचा धर्म' असे म्हणतात. पश्चिमेतील स्लाव-पोलिश लोक रोमन
+            दहाव्या शतकात व्लादिमिरने हा धर्म स्वीकारला व लगेच क्रुसेडच्या टोळ्यांनी बायझेंटाइनचा पुरता विध्वंस केला.
+            रक्षण करण्याची जबाबदारी कीव्हवर आली. पूर्वेकडील स्लाव म्हणजे बल्गेरिया, सर्बिया स्लोवाकिया व नंतर झालेले
+            रशिया हेच या पंथाचे रक्षक राहिले.
+            त्यांनी ही जबाबदारी हिरीरीने उचलली व स्वतःला बायझेंटाइनचे वारसदार म्हणून घोषित करून रोमन पंथियांशी सदोदित
+        </p>
+        <hr>
+    </div>
+    <div>
+        <div class="container">
+            <img style="border-radius:14px;" src="./New folder/ukraine-7068221.jpg" width="300px" alt="">
+        </div>
+        <p class="text"> तो
+            या देशांमध्ये किंवा या माणसांशी वागतान
+            फारसा जाणवत नाही. उलट भारतीयांवर त्यांचे मनापासून प्रेम.
+            यांच्या प्रेमामुळे व जन्मजात असलेल्या कुतूहलामुळे यांच्याविषयी अधिक जाणून घेतले.
+            युरोपमधील देशांची नावे बहुतांशी तिथे स्थायिक झालेल्या टोळ्यांच्या नावांवरून पडली आहेत.
+            आपला संबंध स्लाव लोकांशी व सध्याच्या युक्रेन-रशिया संघर्षाशी आहे. या स्लाव टोळ्या उत्तरेकडून
+            प्रथम दक्षिणेकडे व मग परत उत्तरेकडे अशा सरकत गेल्या. त्या वेळी त्या पेगन धर्माच्या, म्हणजे निसर्गपूजक
+            ग्रीक संस्कृती व रोमन साम्राज्य त्या वेळी युरोपात बलाढ्य होते. त्यांनी प्रथम ख्रिस्ती धर्माला
+            त्याचा स्वीकार केला व नंतर कठोरपणे त्या धर्माच्या अंमलबजावणीसाठी धोरणे अमलात आणली. ग्रीकांचीच एक शाखा
+            डारडानेलसच्या काठावर असलेल्या कॉन्स्तन्तिनोपलला स्थापित झाली व बहरली. दहाव्या शतकात कीव्हचा झार (राजा)
+            याच्या आईने व नंतर त्याने कॉन्स्तन्तिनोपलच्या बायझेंटाइन साम्राज्याकडून ख्रिस्ती धर्माची दीक्षा घेतली. रोम
+            केलेला ख्रिस्ती धर्म पश्चिम युरोपात फोफावला, म्हणून तो रोमन कॅथॉलिक म्हटला गेला व बायझेंटाइन कडून स्वीकारला
+            ऑर्थोडॉक्स नावाने ओळखला गेला. या धर्माची विशेषता म्हणजे, प्रत्येक स्थानिक चर्च स्वतंत्र असते. तिथली
+            छोटे चर्च, कन्या चर्च, बहीण व पुढे माता चर्च अशी त्यांची वाढ असते. म्हणून रशियाचे चर्च हे, ग्रीक ऑर्थोडॉक्स
+            किंवा स्लाविक भाषांमध्ये या धर्माला 'पूर्व स्लावांचा धर्म' असे म्हणतात. पश्चिमेतील स्लाव-पोलिश लोक रोमन
+            दहाव्या शतकात व्लादिमिरने हा धर्म स्वीकारला व लगेच क्रुसेडच्या टोळ्यांनी बायझेंटाइनचा पुरता विध्वंस केला.
+            रक्षण करण्याची जबाबदारी कीव्हवर आली. पूर्वेकडील स्लाव म्हणजे बल्गेरिया, सर्बिया स्लोवाकिया व नंतर झालेले
+            रशिया हेच या पंथाचे रक्षक राहिले.
+            त्यांनी ही जबाबदारी हिरीरीने उचलली व स्वतःला बायझेंटाइनचे वारसदार म्हणून घोषित करून रोमन पंथियांशी सदोदित
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <div>
+        <p class="aaa"> दहाव्या शतकात कीव्हचा झार (राजा)
+            याच्या आईने व नंतर त्याने कॉन्स्तन्तिनोपलच्या बायझेंटाइन साम्राज्याकडून ख्रिस्ती धर्माची दीक्षा घेतली. रोम
+            केलेला ख्रिस्ती धर्म पश्चिम युरोपात फोफावला, म्हणून तो रोमन कॅथॉलिक म्हटला गेला व बायझेंटाइन कडून स्वीकारला
+            ऑर्थोडॉक्स नावाने ओळखला गेला. या धर्माची विशेषता म्हणजे, प्रत्येक स्थानिक चर्च स्वतंत्र असते. तिथली
+            छोटे चर्च, कन्या चर्च, बहीण व पुढे माता चर्च अशी त्यांची वाढ असते. म्हणून रशियाचे चर्च हे, ग्रीक ऑर्थोडॉक्स
+            किंवा स्लाविक भाषांमध्ये या धर्माला 'पूर्व स्लावांचा धर्म' असे म्हणतात. पश्चिमेतील स्लाव-पोलिश लोक रोमन
+            दहाव्या शतकात व्लादिमिरने हा धर्म स्वीकारला व लगेच क्रुसेडच्या टोळ्यांनी बायझेंटाइनचा पुरता विध्वंस केला.
+            रक्षण करण्याची जबाबदारी कीव्हवर आली. पूर्वेकडील स्लाव म्हणजे बल्गेरिया, सर्बिया स्लोवाकिया व नंतर झालेले
+            रशिया हेच या पंथाचे रक्षक राहिले.
+            त्यांनी ही जबाबदारी हिरीरीने उचलली व स्वतःला बायझेंटाइनचे वारसदार म्हणून घोषित करून रोमन पंथियांशी सदोदित
+        </p>
+    </div>
+</body>
+
+</html>

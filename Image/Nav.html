@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        .navbar {
+            background-color: rgb(43, 44, 44);
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            color: rgb(175, 104, 11);
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+        .navbar li a:hover {
+          
+            color: rgba(9, 253, 62, 0.945);
+        }
+        .search{
+            float: right;
+            color: rgb(226, 129, 1);
+            padding: 12px 75px;
+        }
+        .navbar input{ 
+            border: 2px solid rgb(48, 224, 12) ;
+            border-radius: 14px;
+            width: 129px;
+            padding: 3px 30px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#Home">Home</a> </li>
+                <li> <a href="#About">About</a> </li>
+                <li> <a href="#Service">Service</a> </li>
+                <li> <a href="#Contact">Contact</a> </li>
+                <div class="search here">
+                    Search here
+                    <input type="text" name="search" id="search" placeholder="Search here">
+                </div>
+               
+            </ul>
+
+        </nav>
+        <img src="./New folder/grey-pansy-butterfly-6342355_1920.jpg" width="1500" height="500px" alt="">
+    </header>
+
+</body>
+
+</html>

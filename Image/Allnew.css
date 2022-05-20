@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    justify-content: right;
+    text-indent: 50px;
+    background-color: rgb(250, 143, 2);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.AAA {
+    background-color: rgb(117, 84, 13);
+    border: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+}
+.ABC {
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: -1;
+}
+.img {
+    box-shadow: 15px;
+    transition: 0.3s;
+}
+.img:hover{
+    box-shadow: 2px 16px 32px;
+}
+.img2 {
+    box-shadow: 10px; 
+    transition: 0.3px;
+    border-radius: 15px;
+    left: 1000px;
+    right:10px;
+}
+.img2:hover{
+    box-shadow: 2px 16px 30px;
+}
